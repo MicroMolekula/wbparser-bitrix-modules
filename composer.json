@@ -1,0 +1,15 @@
+{
+    "name": "luke/krasikoff.wbparser",
+    "autoload": {
+        "psr-4": {
+            "Krasikoff\\WbParser\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Красиков Иван",
+            "email": "krasikov@intaro.email"
+        }
+    ],
+    "require": {}
+}
