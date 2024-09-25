@@ -7,7 +7,8 @@ class Test
 
     public static function get()
     {
-        return 'Hi, it is my modules';
+        $config = \Bitrix\Main\Config\Configuration::getInstance('krasikoff.wbparser');
+        return $config->get('selenium_uri');
     }
 
 }

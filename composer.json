@@ -11,5 +11,7 @@
             "email": "krasikov@intaro.email"
         }
     ],
-    "require": {}
+    "require": {
+        "php-webdriver/webdriver": "^1.15"
+    }
 }
